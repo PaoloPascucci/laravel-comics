@@ -19,7 +19,7 @@
     }
 
     .jumbotron {
-        height: 300px;
+        height: 410px;
         background-image: url('img/jumbotron.jpg')
     }
 
@@ -38,6 +38,10 @@
         align-items: center;
     }
 
+    .buy>span {
+        color: white;
+    }
+
     .links img {
         margin: 1rem;
     }
@@ -47,8 +51,28 @@
         margin: 1rem;
     }
 
+    #site_main {
+        padding: 0 !important;
+    }
+
     #site_footer {
+        background-color: rgb(48, 48, 48);
+    }
+
+    .list {
+        background-size: cover;
+        height: 500px;
         background-image: url('img/footer-bg.jpg');
+        background-repeat: no-repeat;
+        background-position: center
+    }
+
+    footer button {
+        border: 1px solid rgb(2, 130, 249);
+        color: white;
+        background-color: rgb(48, 48, 48);
+        padding: 1rem;
+
     }
     </style>
     <!-- CUSTOM CSS -->

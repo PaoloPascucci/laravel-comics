@@ -14,4 +14,8 @@
     <img src="{{asset('img/buy-comics-shop-locator.png')}}" alt=""><span>COMIC SHOP LOCATOR</span>
     <img src="{{asset('img/buy-dc-power-visa.svg')}}" alt=""><span>DC POWER VISA</span>
 </div>
+<div class="list">
+
+</div>
+
 @endsection
