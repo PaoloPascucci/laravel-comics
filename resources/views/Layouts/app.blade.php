@@ -9,6 +9,9 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
@@ -16,6 +19,27 @@
     .container {
         width: 80%;
         margin: auto;
+    }
+
+    #site_header a {
+        font-weight: bold;
+    }
+
+    .input {
+        border: none;
+        border-bottom: 1px solid rgb(2, 130, 249);
+        text-align: end;
+        width: 130px;
+    }
+
+    .blue {
+        background-color: rgb(2, 130, 249);
+        color: white;
+        text-align: end;
+    }
+
+    .important {
+        color: rgb(2, 130, 249);
     }
 
     .comics {
@@ -56,10 +80,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    .buy>span {
-        color: white;
     }
 
     .links img {
