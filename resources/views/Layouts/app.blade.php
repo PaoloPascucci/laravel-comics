@@ -18,6 +18,26 @@
         margin: auto;
     }
 
+    .comics {
+        background-color: rgb(28, 28, 28);
+    }
+
+    .comics .card {
+        background-color: rgb(28, 28, 28);
+    }
+
+    .card img {
+        object-fit: cover;
+        object-position: top;
+        height: 200px;
+        margin: 1rem;
+    }
+
+    .card p {
+        margin-left: 1rem;
+        font-weight: bold;
+    }
+
     .jumbotron {
         height: 410px;
         background-image: url('img/jumbotron.jpg')
@@ -59,20 +79,56 @@
         background-color: rgb(48, 48, 48);
     }
 
-    .list {
-        background-size: cover;
-        height: 500px;
-        background-image: url('img/footer-bg.jpg');
-        background-repeat: no-repeat;
-        background-position: center
-    }
-
     footer button {
         border: 1px solid rgb(2, 130, 249);
         color: white;
         background-color: rgb(48, 48, 48);
         padding: 1rem;
 
+    }
+
+    .list {
+        background-size: cover;
+        height: 500px;
+        background-image: url('img/footer-bg.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .sx {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5rem;
+    }
+
+    .sx ul {
+        list-style: none;
+        color: #8f8f90;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        height: max-content;
+    }
+
+    .sx .LIF {
+        color: white;
+        font-size: 20px;
+        padding: 5px 0;
+    }
+
+    .sx li {
+        line-height: 25px;
+    }
+
+
+    .dx {
+        background-image: url('img/dc-logo-bg.png');
+        background-position: right;
+        width: 562px;
+        background-repeat: no-repeat;
     }
     </style>
     <!-- CUSTOM CSS -->
