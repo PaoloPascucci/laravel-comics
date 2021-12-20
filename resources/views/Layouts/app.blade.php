@@ -15,7 +15,11 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <style>
+    <style lang="scss">
+    a {
+        text-decoration: none;
+    }
+
     .container {
         width: 80%;
         margin: auto;
@@ -149,6 +153,11 @@
         background-position: right;
         width: 562px;
         background-repeat: no-repeat;
+    }
+
+    .W_1 {
+        width: 200px;
+        border: none;
     }
     </style>
     <!-- CUSTOM CSS -->
