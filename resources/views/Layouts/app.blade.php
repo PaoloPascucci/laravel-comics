@@ -217,6 +217,10 @@
 
     }
 
+    H4 {
+        margin-bottom: 3rem;
+    }
+
     .bg_grey {
         background: rgb(246, 246, 246);
     }
@@ -231,6 +235,11 @@
 
     .BL {
         color: rgb(0, 63, 94)
+    }
+
+    .B_B {
+        border-top: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
     }
     </style>
     <!-- CUSTOM CSS -->

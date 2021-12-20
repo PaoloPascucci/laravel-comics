@@ -37,46 +37,49 @@
         </div>
     </div>
 </div>
-<div class="container-fluid bg_grey">
+<div class="container-fluid bg_grey p-5">
     <div class="row">
 
         <div class="col-6">
 
             <h4 class="BL">Talent</h4>
-            <div>
+            <div class="B_B d-flex justify-content-between">
                 <p class="BL">
                     Art by:
                 </p>
-                @foreach($comic['artists'] as $artist)
-                <span class="and">{{$artist}}</span>
-                @if(!$loop->last)
-                <span>, </span>
-                @endif
-                @endforeach
+                <div class="w-75">
+                    @foreach($comic['artists'] as $artist)
+                    <span class="and">{{$artist}}</span>
+                    @if(!$loop->last)
+                    <span>, </span>
+                    @endif
+                    @endforeach
+                </div>
             </div>
-            <div>
+            <div class="B_B d-flex justify-content-between">
                 <p class="BL">
                     Written by:
                 </p>
-
-                @foreach($comic['writers'] as $writer)
-                <span class="and">{{$writer}}</span>
-                @if(!$loop->last)
-                <span>, </span>
-                @endif
-                @endforeach
+                <div class="w-75">
+                    @foreach($comic['writers'] as $writer)
+                    <span class="and">{{$writer}}</span>
+                    @if(!$loop->last)
+                    <span>, </span>
+                    @endif
+                    @endforeach
+                </div>
             </div>
         </div>
         <div class="col-6">
             <h4 class="BL">Specs</h4>
-            <div class="d-flex justify-content-around ">
+            <div class="B_B d-flex justify-content-around ">
                 <p class="BL">Series:</p><span class="and U">{{$comic['series']}}</span>
 
             </div>
-            <div class="d-flex justify-content-around ">
+            <div class=" B_B d-flex justify-content-around ">
                 <p class="BL">U.S. Price:</p><span>{{$comic['price']}}</span>
             </div>
-            <div class="d-flex justify-content-around ">
+            <div class=" B_B d-flex justify-content-around ">
                 <p class="BL">On Sale Date:</p><span>{{$comic['sale_date']}}</span>
             </div>
         </div>
