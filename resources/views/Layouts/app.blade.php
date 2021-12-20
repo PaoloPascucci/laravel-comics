@@ -68,7 +68,7 @@
 
     .jumbotron {
         height: 410px;
-        background-image: url('img/jumbotron.jpg')
+        background-image: url('../img/jumbotron.jpg')
     }
 
     .follow {
@@ -114,7 +114,7 @@
     .list {
         background-size: cover;
         height: 500px;
-        background-image: url('img/footer-bg.jpg');
+        background-image: url('../img/footer-bg.jpg');
         background-repeat: no-repeat;
         background-position: center;
         display: flex;
@@ -149,7 +149,7 @@
 
 
     .dx {
-        background-image: url('img/dc-logo-bg.png');
+        background-image: url('../img/dc-logo-bg.png');
         background-position: right;
         width: 562px;
         background-repeat: no-repeat;
@@ -158,6 +158,79 @@
     .W_1 {
         width: 200px;
         border: none;
+        Position: absolute;
+        top: 50%;
+        left: 20%;
+        background-color: transparent;
+        z-index: 1;
+    }
+
+    .C_img {
+        border: 1px solid white;
+    }
+
+    .com {
+        position: absolute;
+        top: 7%;
+        color: white;
+        background: rgb(0, 169, 217);
+        width: 50%;
+        text-align: center;
+        font-weight: 100 !important;
+    }
+
+    .gallery {
+        position: absolute;
+        top: 83%;
+        color: white;
+        background: rgb(0, 169, 217);
+        text-align: center;
+        font-weight: 100 !important;
+        width: 169px;
+    }
+
+    .blueline {
+        position: relative;
+        height: 100px;
+        background-color: rgb(2, 130, 249);
+    }
+
+    .green {
+        color: rgb(137, 229, 117)
+    }
+
+    .bg_green {
+        background: rgb(85, 186, 89)
+    }
+
+    .col-10 {
+        border-right: 1px solid grey;
+    }
+
+    .col-4 {
+        text-align: end;
+    }
+
+    .bg_green p {
+        margin: 1rem;
+        color: white;
+
+    }
+
+    .bg_grey {
+        background: rgb(246, 246, 246);
+    }
+
+    .and {
+        color: rgb(0, 169, 223)
+    }
+
+    .U {
+        text-transform: uppercase
+    }
+
+    .BL {
+        color: rgb(0, 63, 94)
     }
     </style>
     <!-- CUSTOM CSS -->
